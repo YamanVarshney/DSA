@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Armstrong {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.err.println("Enter the number: ");
+        System.out.println("Enter the number: ");
         int n = sc.nextInt();
         int n2 = n;
         int count =0;
@@ -23,9 +23,9 @@ public class Armstrong {
         }
 
         if(sum==n){
-            System.err.println(n+ " is armstrong number");
+            System.out.println(n+ " is armstrong number");
         }  else{
-            System.err.println(n+" is not armstrong number");
+            System.out.println(n+" is not armstrong number");
         }
 
         sc.close();
