@@ -35,3 +35,5 @@ public class MajorityElement {
         FindMajorityElement(arr);
     }
 }
+// condition of majority element is that the number should appear more than the number of times of the number of element in array divided by 2 
+// n  > > n/2
